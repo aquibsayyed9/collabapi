@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1dDnIlQplRQM16zBjQMifld5Qzg2sjg40WIHSecA1cFBFoEBj1bukU5fYLgS74gQqsne8gWGoj6/Fo+c5tax3Q==",
+  "success": true,
+  "projectFilePath": "C:\\personalWorkspace\\collabtool\\collabapi\\CollaborationTool.Domain\\CollaborationTool.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aquib.Sayyed\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512"
+  ],
+  "logs": []
+}
