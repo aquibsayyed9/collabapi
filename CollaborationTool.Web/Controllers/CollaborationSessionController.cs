@@ -2,17 +2,16 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 using CollaborationTool.Application.DTOs;
-using CollaborationTool.Application.Interfaces;
+using CollaborationTool.Application.Services;
 
 namespace CollaborationTool.Web.Controllers
-{
-    [ApiController]
+{    
     [Route("[controller]")]
-    public class DocumentController : ControllerBase
+    public class CollaborationSessionController : ControllerBase
     {
         private readonly IDocumentService _documentService;
 
-        public DocumentController(IDocumentService documentService)
+        public CollaborationSessionController(IDocumentService documentService)
         {
             _documentService = documentService;
         }
@@ -41,28 +40,28 @@ namespace CollaborationTool.Web.Controllers
             return CreatedAtAction(nameof(GetById), new { id = documentDto.DocumentId }, documentDto);
         }
 
-        [HttpPost("{documentId}/join")]
-        public async Task<IActionResult> JoinSession(Guid documentId)
-        {
-            var sessionDto = await _collaborationSessionService.JoinSessionAsync(documentId);
-            if (sessionDto == null)
-            {
-                return NotFound();
-            }
+        //[HttpPost("{documentId}/join")]
+        //public async Task<IActionResult> JoinSession(Guid documentId)
+        //{
+        //    var sessionDto = await _collaborationSessionService.JoinSessionAsync(documentId);
+        //    if (sessionDto == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return Ok(sessionDto);
-        }
+        //    return Ok(sessionDto);
+        //}
 
-        [HttpPost("{sessionId}/leave")]
-        public async Task<IActionResult> LeaveSession(Guid sessionId)
-        {
-            var success = await _collaborationSessionService.LeaveSessionAsync(sessionId);
-            if (!success)
-            {
-                return NotFound();
-            }
+        //[HttpPost("{sessionId}/leave")]
+        //public async Task<IActionResult> LeaveSession(Guid sessionId)
+        //{
+        //    var success = await _collaborationSessionService.LeaveSessionAsync(sessionId);
+        //    if (!success)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return NoContent();
-        }
+        //    return NoContent();
+        //}
     }
 }

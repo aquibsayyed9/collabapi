@@ -1,0 +1,15 @@
+D:\Workspace\aquib\collabapi\CollaborationTool.Application\obj\Debug\net7.0\CollaborationTool.Application.csproj.AssemblyReference.cache
+D:\Workspace\aquib\collabapi\CollaborationTool.Application\obj\Debug\net7.0\CollaborationTool.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\aquib\collabapi\CollaborationTool.Application\obj\Debug\net7.0\CollaborationTool.Application.AssemblyInfoInputs.cache
+D:\Workspace\aquib\collabapi\CollaborationTool.Application\obj\Debug\net7.0\CollaborationTool.Application.AssemblyInfo.cs
+D:\Workspace\aquib\collabapi\CollaborationTool.Application\obj\Debug\net7.0\CollaborationTool.Application.csproj.CoreCompileInputs.cache
+D:\Workspace\aquib\collabapi\CollaborationTool.Application\bin\Debug\net7.0\CollaborationTool.Application.deps.json
+D:\Workspace\aquib\collabapi\CollaborationTool.Application\bin\Debug\net7.0\CollaborationTool.Application.dll
+D:\Workspace\aquib\collabapi\CollaborationTool.Application\bin\Debug\net7.0\CollaborationTool.Application.pdb
+D:\Workspace\aquib\collabapi\CollaborationTool.Application\bin\Debug\net7.0\CollaborationTool.Domain.dll
+D:\Workspace\aquib\collabapi\CollaborationTool.Application\bin\Debug\net7.0\CollaborationTool.Domain.pdb
+D:\Workspace\aquib\collabapi\CollaborationTool.Application\obj\Debug\net7.0\CollaborationTool.Application.csproj.CopyComplete
+D:\Workspace\aquib\collabapi\CollaborationTool.Application\obj\Debug\net7.0\CollaborationTool.Application.dll
+D:\Workspace\aquib\collabapi\CollaborationTool.Application\obj\Debug\net7.0\refint\CollaborationTool.Application.dll
+D:\Workspace\aquib\collabapi\CollaborationTool.Application\obj\Debug\net7.0\CollaborationTool.Application.pdb
+D:\Workspace\aquib\collabapi\CollaborationTool.Application\obj\Debug\net7.0\ref\CollaborationTool.Application.dll

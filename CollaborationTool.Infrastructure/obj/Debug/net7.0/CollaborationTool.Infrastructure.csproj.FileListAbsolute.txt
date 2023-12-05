@@ -1,0 +1,12 @@
+D:\Workspace\aquib\collabapi\CollaborationTool.Infrastructure\bin\Debug\net7.0\CollaborationTool.Infrastructure.deps.json
+D:\Workspace\aquib\collabapi\CollaborationTool.Infrastructure\bin\Debug\net7.0\CollaborationTool.Infrastructure.dll
+D:\Workspace\aquib\collabapi\CollaborationTool.Infrastructure\bin\Debug\net7.0\CollaborationTool.Infrastructure.pdb
+D:\Workspace\aquib\collabapi\CollaborationTool.Infrastructure\obj\Debug\net7.0\CollaborationTool.Infrastructure.csproj.AssemblyReference.cache
+D:\Workspace\aquib\collabapi\CollaborationTool.Infrastructure\obj\Debug\net7.0\CollaborationTool.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\aquib\collabapi\CollaborationTool.Infrastructure\obj\Debug\net7.0\CollaborationTool.Infrastructure.AssemblyInfoInputs.cache
+D:\Workspace\aquib\collabapi\CollaborationTool.Infrastructure\obj\Debug\net7.0\CollaborationTool.Infrastructure.AssemblyInfo.cs
+D:\Workspace\aquib\collabapi\CollaborationTool.Infrastructure\obj\Debug\net7.0\CollaborationTool.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Workspace\aquib\collabapi\CollaborationTool.Infrastructure\obj\Debug\net7.0\CollaborationTool.Infrastructure.dll
+D:\Workspace\aquib\collabapi\CollaborationTool.Infrastructure\obj\Debug\net7.0\refint\CollaborationTool.Infrastructure.dll
+D:\Workspace\aquib\collabapi\CollaborationTool.Infrastructure\obj\Debug\net7.0\CollaborationTool.Infrastructure.pdb
+D:\Workspace\aquib\collabapi\CollaborationTool.Infrastructure\obj\Debug\net7.0\ref\CollaborationTool.Infrastructure.dll

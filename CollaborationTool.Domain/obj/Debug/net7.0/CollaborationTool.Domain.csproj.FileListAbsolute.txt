@@ -1,0 +1,12 @@
+D:\Workspace\aquib\collabapi\CollaborationTool.Domain\obj\Debug\net7.0\CollaborationTool.Domain.csproj.AssemblyReference.cache
+D:\Workspace\aquib\collabapi\CollaborationTool.Domain\obj\Debug\net7.0\CollaborationTool.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\aquib\collabapi\CollaborationTool.Domain\obj\Debug\net7.0\CollaborationTool.Domain.AssemblyInfoInputs.cache
+D:\Workspace\aquib\collabapi\CollaborationTool.Domain\obj\Debug\net7.0\CollaborationTool.Domain.AssemblyInfo.cs
+D:\Workspace\aquib\collabapi\CollaborationTool.Domain\obj\Debug\net7.0\CollaborationTool.Domain.csproj.CoreCompileInputs.cache
+D:\Workspace\aquib\collabapi\CollaborationTool.Domain\bin\Debug\net7.0\CollaborationTool.Domain.deps.json
+D:\Workspace\aquib\collabapi\CollaborationTool.Domain\bin\Debug\net7.0\CollaborationTool.Domain.dll
+D:\Workspace\aquib\collabapi\CollaborationTool.Domain\bin\Debug\net7.0\CollaborationTool.Domain.pdb
+D:\Workspace\aquib\collabapi\CollaborationTool.Domain\obj\Debug\net7.0\CollaborationTool.Domain.dll
+D:\Workspace\aquib\collabapi\CollaborationTool.Domain\obj\Debug\net7.0\refint\CollaborationTool.Domain.dll
+D:\Workspace\aquib\collabapi\CollaborationTool.Domain\obj\Debug\net7.0\CollaborationTool.Domain.pdb
+D:\Workspace\aquib\collabapi\CollaborationTool.Domain\obj\Debug\net7.0\ref\CollaborationTool.Domain.dll

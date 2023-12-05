@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\personalWorkspace\\collabtool\\collabapi\\CollaborationTool.Application\\CollaborationTool.Application.csproj": {}
+    "D:\\Workspace\\aquib\\collabapi\\CollaborationTool.Application\\CollaborationTool.Application.csproj": {}
   },
   "projects": {
-    "C:\\personalWorkspace\\collabtool\\collabapi\\CollaborationTool.Application\\CollaborationTool.Application.csproj": {
+    "D:\\Workspace\\aquib\\collabapi\\CollaborationTool.Application\\CollaborationTool.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\personalWorkspace\\collabtool\\collabapi\\CollaborationTool.Application\\CollaborationTool.Application.csproj",
+        "projectUniqueName": "D:\\Workspace\\aquib\\collabapi\\CollaborationTool.Application\\CollaborationTool.Application.csproj",
         "projectName": "CollaborationTool.Application",
-        "projectPath": "C:\\personalWorkspace\\collabtool\\collabapi\\CollaborationTool.Application\\CollaborationTool.Application.csproj",
-        "packagesPath": "C:\\Users\\Aquib.Sayyed\\.nuget\\packages\\",
-        "outputPath": "C:\\personalWorkspace\\collabtool\\collabapi\\CollaborationTool.Application\\obj\\",
+        "projectPath": "D:\\Workspace\\aquib\\collabapi\\CollaborationTool.Application\\CollaborationTool.Application.csproj",
+        "packagesPath": "C:\\Users\\Aquib\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\aquib\\collabapi\\CollaborationTool.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Aquib.Sayyed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aquib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,12 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Workspace\\aquib\\collabapi\\CollaborationTool.Domain\\CollaborationTool.Domain.csproj": {
+                "projectPath": "D:\\Workspace\\aquib\\collabapi\\CollaborationTool.Domain\\CollaborationTool.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -65,7 +74,73 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Workspace\\aquib\\collabapi\\CollaborationTool.Domain\\CollaborationTool.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Workspace\\aquib\\collabapi\\CollaborationTool.Domain\\CollaborationTool.Domain.csproj",
+        "projectName": "CollaborationTool.Domain",
+        "projectPath": "D:\\Workspace\\aquib\\collabapi\\CollaborationTool.Domain\\CollaborationTool.Domain.csproj",
+        "packagesPath": "C:\\Users\\Aquib\\.nuget\\packages\\",
+        "outputPath": "D:\\Workspace\\aquib\\collabapi\\CollaborationTool.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Aquib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

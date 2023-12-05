@@ -1,4 +1,4 @@
-using FluentValidation
+using FluentValidation;
 using CollaborationTool.Domain.Entities;
 
 namespace CollaborationTool.Domain.Validators

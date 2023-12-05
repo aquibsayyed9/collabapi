@@ -1,44 +1,47 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 using AutoMapper;
 using CollaborationTool.Application.DTOs;
-using CollaborationTool.Application.Interfaces;
 using CollaborationTool.Domain.Entities;
-using CollaborationTool.Domain.Entities.Validators;
+using CollaborationTool.Domain.Validators;
 
-public class UserService : IUserService
+namespace CollaborationTool.Application.Services
 {
-    private readonly IMapper _mapper;
-    // Inject other dependencies here, e.g., database context
-
-    public UserService(IMapper mapper)
+    public class UserService : IUserService
     {
-        _mapper = mapper;
-    }
+        private readonly IMapper _mapper;
+        // Inject other dependencies here, e.g., database context
 
-    public async Task<IEnumerable<UserDto>> GetAllUsersAsync()
-    {
-        // Implementation for retrieving all users
-    }
-
-    public async Task<UserDto> GetUserByIdAsync(Guid userId)
-    {
-        // Implementation for retrieving a single user by ID
-    }
-
-    public async Task CreateUserAsync(UserDto userDto)
-    {
-        var user = _mapper.Map<User>(userDto);
-        var validator = new UserValidator();
-        var validationResult = validator.Validate(user);
-
-        if (!validationResult.IsValid)
+        public UserService(IMapper mapper)
         {
-            // Handle validation failure
-            throw new ValidationException(validationResult.Errors);
+            _mapper = mapper;
         }
 
-        // Implementation for creating a user
+        public async Task<IEnumerable<UserDto>> GetAllUsersAsync()
+        {
+            // Implementation for retrieving all users
+            throw new NotImplementedException();
+        }
+
+        public async Task<UserDto> GetUserByIdAsync(Guid userId)
+        {
+            // Implementation for retrieving a single user by ID
+            throw new NotImplementedException();
+        }
+
+        public async Task CreateUserAsync(UserDto userDto)
+        {
+            var user = _mapper.Map<User>(userDto);
+            var validator = new UserValidator();
+            var validationResult = validator.Validate(user);
+
+            if (!validationResult.IsValid)
+            {
+                // Handle validation failure
+                var errorMessage = string.Join("; ", validationResult.Errors.Select(e => e.ErrorMessage));
+                throw new ValidationException(errorMessage);
+            }
+
+            // Implementation for creating a user
+        }
     }
 }

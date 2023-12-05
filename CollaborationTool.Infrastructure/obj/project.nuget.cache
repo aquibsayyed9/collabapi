@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wrXB66tIIy37uc87fOoCmAkT2PFCIEdzoykIi6qaFmgoAPpcsaKCVWqp29Vd3d/F5LkvIid0jJYpsavFVOtXRw==",
+  "dgSpecHash": "nFtByAPFESbXPFujrFuBhDOrK9EoHqpadrhF1BDiILQS4w0SjydpoIdgaN3ufCwlOPKj+h1QTNNs81FYrkIL6w==",
   "success": true,
-  "projectFilePath": "C:\\personalWorkspace\\collabtool\\collabapi\\CollaborationTool.Infrastructure\\CollaborationTool.Infrastructure.csproj",
+  "projectFilePath": "D:\\Workspace\\aquib\\collabapi\\CollaborationTool.Infrastructure\\CollaborationTool.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 using CollaborationTool.Application.DTOs;
-using CollaborationTool.Application.Interfaces;
+using CollaborationTool.Application.Services;
 
 namespace CollaborationTool.Web.Controllers
 {
@@ -41,28 +41,28 @@ namespace CollaborationTool.Web.Controllers
             return CreatedAtAction(nameof(GetById), new { id = documentDto.DocumentId }, documentDto);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Update(Guid id, [FromBody] DocumentDto documentDto)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+        //[HttpPut("{id}")]
+        //public async Task<IActionResult> Update(Guid id, [FromBody] DocumentDto documentDto)
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
 
-            var success = await _documentService.UpdateDocumentAsync(id, documentDto);
-            if (!success)
-            {
-                return NotFound();
-            }
+        //    var success = await _documentService.UpdateDocumentAsync(id, documentDto);
+        //    if (!success)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return NoContent(); // or return Ok(documentDto) based on your API design
-        }
+        //    return NoContent(); // or return Ok(documentDto) based on your API design
+        //}
 
-        [HttpGet("user/{userId}")]
-        public async Task<IActionResult> GetDocumentsByUser(Guid userId)
-        {
-            var documents = await _documentService.GetDocumentsByUserIdAsync(userId);
-            return Ok(documents);
-        }
+        //[HttpGet("user/{userId}")]
+        //public async Task<IActionResult> GetDocumentsByUser(Guid userId)
+        //{
+        //    var documents = await _documentService.GetDocumentsByUserIdAsync(userId);
+        //    return Ok(documents);
+        //}
     }
 }

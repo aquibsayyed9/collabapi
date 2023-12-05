@@ -3,32 +3,40 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
 using CollaborationTool.Application.DTOs;
-using CollaborationTool.Application.Interfaces;
 using CollaborationTool.Domain.Entities;
-
-public class DocumentService : IDocumentService
+namespace CollaborationTool.Application.Services
 {
-    private readonly IMapper _mapper;
-    // Inject other dependencies here, e.g., database context
-
-    public DocumentService(IMapper mapper)
+    public class DocumentService : IDocumentService
     {
-        _mapper = mapper;
-    }
+        private readonly IMapper _mapper;
+        // Inject other dependencies here, e.g., database context
 
-    public async Task<IEnumerable<DocumentDto>> GetAllDocumentsAsync()
-    {
-        // Implementation for retrieving all documents
-    }
+        public DocumentService(IMapper mapper)
+        {
+            _mapper = mapper;
+        }
 
-    public async Task<DocumentDto> GetDocumentByIdAsync(Guid documentId)
-    {
-        // Implementation for retrieving a single document by ID
-    }
+        public async Task<IEnumerable<DocumentDto>> GetAllDocumentsAsync()
+        {
+            // Implementation for retrieving all documents
+            throw new NotImplementedException();
+        }
 
-    public async Task CreateDocumentAsync(DocumentDto documentDto)
-    {
-        var document = _mapper.Map<Document>(documentDto);
-        // Implementation for creating a document
+        public async Task<DocumentDto> GetDocumentByIdAsync(Guid documentId)
+        {
+            // Implementation for retrieving a single document by ID
+            throw new NotImplementedException();
+        }
+
+        public async Task CreateDocumentAsync(DocumentDto documentDto)
+        {
+            var document = _mapper.Map<Document>(documentDto);
+            // Implementation for creating a document
+        }
+
+        public Task UpdateDocumentAsync(Guid id, DocumentDto documentDto)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

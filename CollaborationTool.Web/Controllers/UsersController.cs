@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 using CollaborationTool.Application.DTOs;
-using CollaborationTool.Application.Interfaces;
+using CollaborationTool.Application.Services;
 
 namespace CollaborationTool.Web.Controllers
 {
